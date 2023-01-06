@@ -64,6 +64,7 @@ nav ul{
     display: flex;
     margin:0px 200px;
     align-items: center;
+    justify-content: space-around;
     
 }
 .banner-tittle{
@@ -119,6 +120,7 @@ nav ul{
     margin: 130px 230px;
     text-align: center;
     padding: 131px 156px;
+
 }
 
 .section-tittle{
@@ -139,12 +141,14 @@ nav ul{
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
+    
 }
 
 .skills-container{
     display: flex;
     text-align: left;
     gap: 24px;
+    justify-content: space-around;
 }
 
 .skill-tittle{
@@ -160,10 +164,88 @@ nav ul{
 }
 /* =============resume------------------ */
 
-.resume{
+/* .resume{
 
+} */
+.resume-contant{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 20px;
+    gap: 24px;
+    margin: 70px 300px;
 }
 
 .resume-tittle{
+    margin-bottom: 30px;
+} 
+.resume-item{
+    padding: 50px;
+    font-weight: 400;
+}
 
+.tittle{
+    color: #181818;
+}
+.sub-tittle{
+    font-size: 16px;
+    font-weight: 500;
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.discription{
+    font-size: 14px;
+    color: #757575;
+}
+.cv{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50PX;
+}
+/* =================footer contact=============================== */
+
+.contact{
+    background-color: #FFF8F3;
+}
+.footer{
+    display: flex;
+    padding-bottom: 300px;
+    justify-content: space-around;
+}
+.social{
+    padding: 200PX;
+}
+.form{
+    padding: 200px;
+}
+.social-tittle{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.social-discription{
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: 20px;
+   margin-right: 50px;
+}
+.form{
+    margin-right: 200px;
+}
+.form-input , input{
+    border: 0;
+    margin-bottom: 20px;
+    height: 64px;
+    padding: 20px;
+    width: 100%;
+    
+}
+.form-input ,textarea{
+    border: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+ 
 }
